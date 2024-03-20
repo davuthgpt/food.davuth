@@ -155,7 +155,7 @@ header .icons_1 #menu-bars {
 
 /* media queries */
 
-@media (max-width: 991px) {
+@media (max-width: 600px) {
   html {
     font-size: 55%;
   }
@@ -793,7 +793,7 @@ header .dropbtn:hover {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   header .icons #menu-bars {
     display: inline-block;
   }
