@@ -155,17 +155,17 @@ header .icons_1 #menu-bars {
 
 /* media queries */
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   html {
     font-size: 55%;
   }
 
   header {
-    padding: 1rem 2rem;
+    padding: 1rem;
   }
 
   section {
-    padding: 2rem;
+    padding: 1rem;
   }
 }
 
@@ -267,7 +267,7 @@ header .icons_1 #menu-bars {
 
 .dishes .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   gap: 1.5rem;
 }
 
@@ -793,7 +793,7 @@ header .dropbtn:hover {
 
 
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   header .icons #menu-bars {
     display: inline-block;
   }
@@ -832,7 +832,7 @@ header .dropbtn:hover {
   }
 }
 
-@media (max-width: 450px) {
+@media screen and (max-width: 450px) {
   html {
     font-size: 50%;
   }
